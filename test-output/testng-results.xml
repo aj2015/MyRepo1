@@ -2,48 +2,52 @@
 <testng-results skipped="0" failed="1" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Yahoo" duration-ms="130" started-at="2015-03-13T21:10:22Z" finished-at="2015-03-13T21:10:23Z">
+  <suite name="Yahoo" duration-ms="106" started-at="2015-07-30T01:07:27Z" finished-at="2015-07-30T01:07:27Z">
     <groups>
     </groups>
-    <test name="Yahoo Mail Test " duration-ms="10" started-at="2015-03-13T21:10:22Z" finished-at="2015-03-13T21:10:22Z">
+    <test name="Yahoo Mail Test " duration-ms="10" started-at="2015-07-30T01:07:27Z" finished-at="2015-07-30T01:07:27Z">
       <class name="test.YahooTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.YahooTest@7907ec20]" name="beforeTest" is-config="true" duration-ms="10" started-at="2015-03-14T08:10:22Z" finished-at="2015-03-14T08:10:22Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.YahooTest@721e0f4f]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-07-30T11:07:27Z" finished-at="2015-07-30T11:07:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.YahooTest@7907ec20]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-03-14T08:10:22Z" finished-at="2015-03-14T08:10:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.YahooTest@7907ec20]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-03-14T08:10:22Z" finished-at="2015-03-14T08:10:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSendMail()[pri:0, instance:test.YahooTest@7907ec20]" name="testSendMail" duration-ms="0" started-at="2015-03-14T08:10:22Z" finished-at="2015-03-14T08:10:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSendMail -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.YahooTest@7907ec20]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-03-14T08:10:22Z" finished-at="2015-03-14T08:10:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.YahooTest@7907ec20]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-03-14T08:10:22Z" finished-at="2015-03-14T08:10:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.YahooTest@7907ec20]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-03-14T08:10:22Z" finished-at="2015-03-14T08:10:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="testReceivedMail()[pri:0, instance:test.YahooTest@7907ec20]" name="testReceivedMail" duration-ms="0" started-at="2015-03-14T08:10:22Z" finished-at="2015-03-14T08:10:22Z">
+        <test-method status="PASS" signature="testReceivedMail()[pri:0, instance:test.YahooTest@721e0f4f]" name="testReceivedMail" duration-ms="1" started-at="2015-07-30T11:07:27Z" finished-at="2015-07-30T11:07:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testReceivedMail -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.YahooTest@721e0f4f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-07-30T11:07:27Z" finished-at="2015-07-30T11:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSendMail()[pri:0, instance:test.YahooTest@721e0f4f]" name="testSendMail" duration-ms="0" started-at="2015-07-30T11:07:27Z" finished-at="2015-07-30T11:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSendMail -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.YahooTest@721e0f4f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-07-30T11:07:27Z" finished-at="2015-07-30T11:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.YahooTest@721e0f4f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-07-30T11:07:27Z" finished-at="2015-07-30T11:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.YahooTest@721e0f4f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-07-30T11:07:27Z" finished-at="2015-07-30T11:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.YahooTest@721e0f4f]" name="afterTest" is-config="true" duration-ms="1" started-at="2015-07-30T11:07:27Z" finished-at="2015-07-30T11:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- test.YahooTest -->
     </test> <!-- Yahoo Mail Test  -->
-    <test name="Yahoo News Test" duration-ms="0" started-at="2015-03-13T21:10:23Z" finished-at="2015-03-13T21:10:23Z">
+    <test name="Yahoo News Test" duration-ms="4" started-at="2015-07-30T01:07:27Z" finished-at="2015-07-30T01:07:27Z">
       <class name="test.YahooNewsTest">
-        <test-method status="FAIL" signature="testNews()[pri:0, instance:test.YahooNewsTest@c818063]" name="testNews" duration-ms="0" started-at="2015-03-14T08:10:23Z" finished-at="2015-03-14T08:10:23Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.YahooNewsTest@75bd9247]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-07-30T11:07:27Z" finished-at="2015-07-30T11:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="testNews()[pri:0, instance:test.YahooNewsTest@75bd9247]" name="testNews" duration-ms="3" started-at="2015-07-30T11:07:27Z" finished-at="2015-07-30T11:07:27Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Good1] but found [Good]]]>
@@ -85,25 +89,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNews -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.YahooNewsTest@c818063]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-03-14T08:10:23Z" finished-at="2015-03-14T08:10:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
       </class> <!-- test.YahooNewsTest -->
     </test> <!-- Yahoo News Test -->
-    <test name="Yahoo Registration Test" duration-ms="10" started-at="2015-03-13T21:10:23Z" finished-at="2015-03-13T21:10:23Z">
+    <test name="Yahoo Registration Test" duration-ms="2" started-at="2015-07-30T01:07:27Z" finished-at="2015-07-30T01:07:27Z">
       <class name="test.YahooTest">
-        <test-method status="PASS" signature="initializeSelenium()[pri:0, instance:test.YahooTest@7907ec20]" name="initializeSelenium" is-config="true" duration-ms="0" started-at="2015-03-14T08:10:22Z" finished-at="2015-03-14T08:10:22Z">
+        <test-method status="PASS" signature="initializeSelenium()[pri:0, instance:test.YahooTest@721e0f4f]" name="initializeSelenium" is-config="true" duration-ms="13" started-at="2015-07-30T11:07:27Z" finished-at="2015-07-30T11:07:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeSelenium -->
-        <test-method status="PASS" signature="shutdownSelenium()[pri:0, instance:test.YahooTest@7907ec20]" name="shutdownSelenium" is-config="true" duration-ms="0" started-at="2015-03-14T08:10:23Z" finished-at="2015-03-14T08:10:23Z">
+        <test-method status="PASS" signature="shutdownSelenium()[pri:0, instance:test.YahooTest@721e0f4f]" name="shutdownSelenium" is-config="true" duration-ms="0" started-at="2015-07-30T11:07:27Z" finished-at="2015-07-30T11:07:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdownSelenium -->
       </class> <!-- test.YahooTest -->
       <class name="test.YahooRegistrationTest">
-        <test-method status="PASS" signature="testRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.YahooRegistrationTest@56cbfb61]" name="testRegister" duration-ms="0" started-at="2015-03-14T08:10:23Z" data-provider="registerData" finished-at="2015-03-14T08:10:23Z">
+        <test-method status="PASS" signature="testRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.YahooRegistrationTest@d041cf]" name="testRegister" duration-ms="1" started-at="2015-07-30T11:07:27Z" data-provider="registerData" finished-at="2015-07-30T11:07:27Z">
           <params>
             <param index="0">
               <value>
@@ -129,7 +129,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegister -->
-        <test-method status="PASS" signature="testRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.YahooRegistrationTest@56cbfb61]" name="testRegister" duration-ms="0" started-at="2015-03-14T08:10:23Z" data-provider="registerData" finished-at="2015-03-14T08:10:23Z">
+        <test-method status="PASS" signature="testRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.YahooRegistrationTest@d041cf]" name="testRegister" duration-ms="0" started-at="2015-07-30T11:07:27Z" data-provider="registerData" finished-at="2015-07-30T11:07:27Z">
           <params>
             <param index="0">
               <value>
@@ -155,7 +155,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegister -->
-        <test-method status="PASS" signature="testRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.YahooRegistrationTest@56cbfb61]" name="testRegister" duration-ms="0" started-at="2015-03-14T08:10:23Z" data-provider="registerData" finished-at="2015-03-14T08:10:23Z">
+        <test-method status="PASS" signature="testRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.YahooRegistrationTest@d041cf]" name="testRegister" duration-ms="0" started-at="2015-07-30T11:07:27Z" data-provider="registerData" finished-at="2015-07-30T11:07:27Z">
           <params>
             <param index="0">
               <value>

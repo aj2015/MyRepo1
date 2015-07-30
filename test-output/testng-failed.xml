@@ -3,12 +3,6 @@
 <suite name="Failed suite [Yahoo]">
   <test name="Yahoo News Test(failed)">
     <classes>
-      <class name="test.YahooNewsTest">
-        <methods>
-          <include name="beforeTest"/>
-          <include name="testNews"/>
-        </methods>
-      </class> <!-- test.YahooNewsTest -->
       <class name="test.YahooTest">
         <methods>
           <include name="beforeMethod"/>
@@ -19,6 +13,12 @@
           <include name="afterTest"/>
         </methods>
       </class> <!-- test.YahooTest -->
+      <class name="test.YahooNewsTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="testNews"/>
+        </methods>
+      </class> <!-- test.YahooNewsTest -->
     </classes>
   </test> <!-- Yahoo News Test(failed) -->
 </suite> <!-- Failed suite [Yahoo] -->

@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Yahoo">
-                    <span>F:\myprojects\Module9a\testng.xml</span>
+                    <span>D:\myprojects\Module9a\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -120,12 +120,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Yahoo" title="test.YahooRegistrationTest" hash-for-method="testRegister(User1, Pass1, Email1, City1)">testRegister(User1, Pass1, Email1, City1)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Yahoo" title="test.YahooRegistrationTest" hash-for-method="testRegister(User3, Pass3, Email3, City3)">testRegister(User3, Pass3, Email3, City3)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Yahoo" title="test.YahooRegistrationTest" hash-for-method="testRegister(User3, Pass3, Email3, City3)">testRegister(User3, Pass3, Email3, City3)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Yahoo" title="test.YahooRegistrationTest" hash-for-method="testRegister(User1, Pass1, Email1, City1)">testRegister(User1, Pass1, Email1, City1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -199,18 +199,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testRegister(User1, Pass1, Email1, City1)">
-                  </a> <!-- testRegister(User1, Pass1, Email1, City1) -->
-                  <span class="method-name">testRegister</span>
-                  <span class="parameters">(User1, Pass1, Email1, City1)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="testRegister(User3, Pass3, Email3, City3)">
                   </a> <!-- testRegister(User3, Pass3, Email3, City3) -->
                   <span class="method-name">testRegister</span>
                   <span class="parameters">(User3, Pass3, Email3, City3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegister(User1, Pass1, Email1, City1)">
+                  </a> <!-- testRegister(User1, Pass1, Email1, City1) -->
+                  <span class="method-name">testRegister</span>
+                  <span class="parameters">(User1, Pass1, Email1, City1)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -226,7 +226,7 @@
         </div> <!-- panel Yahoo -->
         <div panel-name="test-xml-Yahoo" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">F:\myprojects\Module9a\testng.xml</span>
+            <span class="header-content">D:\myprojects\Module9a\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -293,20 +293,20 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testSendMail')
-data.setCell(0, 2, 'test.YahooTest')
-data.setCell(0, 3, 0);
+data.setCell(0, 1, 'testNews')
+data.setCell(0, 2, 'test.YahooNewsTest')
+data.setCell(0, 3, 3);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testReceivedMail')
 data.setCell(1, 2, 'test.YahooTest')
-data.setCell(1, 3, 0);
+data.setCell(1, 3, 1);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testNews')
-data.setCell(2, 2, 'test.YahooNewsTest')
-data.setCell(2, 3, 0);
+data.setCell(2, 1, 'testRegister')
+data.setCell(2, 2, 'test.YahooRegistrationTest')
+data.setCell(2, 3, 1);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testRegister')
-data.setCell(3, 2, 'test.YahooRegistrationTest')
+data.setCell(3, 1, 'testSendMail')
+data.setCell(3, 2, 'test.YahooTest')
 data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testRegister')
@@ -320,7 +320,7 @@ window.suiteTableData['Yahoo']= { tableData: data, tableDiv: 'times-div-Yahoo'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 5 ms</span>
               <div id="times-div-Yahoo">
               </div> <!-- times-div-Yahoo -->
             </div> <!-- times-div -->
@@ -347,61 +347,61 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">test.YahooTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">beforeTest</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
               <div class="configuration-suite before">
                 <span class="method-name">initializeSelenium</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">10 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">10 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-test after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">10 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">10 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">10 ms</span>
+                <span class="method-start">21 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testReceivedMail</span>
-                <span class="method-start">10 ms</span>
+                <span class="method-start">21 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSendMail</span>
-                <span class="method-start">10 ms</span>
+                <span class="method-start">22 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.YahooNewsTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">110 ms</span>
+                <span class="method-start">108 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testNews</span>
-                <span class="method-start">110 ms</span>
+                <span class="method-start">109 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.YahooRegistrationTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testRegister(User1, Pass1, Email1, City1)</span>
-                <span class="method-start">120 ms</span>
+                <span class="method-start">119 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testRegister(User2, Pass2, Email2, City2)</span>
@@ -416,7 +416,7 @@ return data;
               <div class="chronological-class-name">test.YahooTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">shutdownSelenium</span>
-                <span class="method-start">130 ms</span>
+                <span class="method-start">123 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
